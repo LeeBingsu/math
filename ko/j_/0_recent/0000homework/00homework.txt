@@ -76,7 +76,39 @@ $$
    - 분류를 위한 RBM
  - Radial Basis Function
 ##################################################################################################################################################################
-                                                                  |
+                                                                  
+
+
+<!-- ---
+title: "Tweedie 공식"
+en: "Tweedie Formula"
+jp: "トゥイーディー公式"
+publishdate: "2026-03-08"
+author: "전기현"
+categories: "수리통계학"
+idx: 3791
+url: 'posts/3791'
+codeblock: false
+draft: true
+---
+
+## 공식[^1] [^2] [^3]
+
+[^1]: [Robbins, Herbert E. *An empirical Bayes approach to statistics.* Breakthroughs in Statistics: Foundations and basic theory. 1992. 388-394.](https://apps.dtic.mil/sti/tr/pdf/AD1028387.pdf)
+
+[^2]: [Efron, Bradley. *Tweedie's formula and selection bias.* Journal of the American Statistical Association 106.496 (2011): 1602-1614.](https://www.tandfonline.com/doi/pdf/10.1198/jasa.2011.tm11181)
+
+[^3]: [Tweedie, Maurice C. *Statistical models based on the compound Poisson distribution.* Biometrika 42.3-4 (1955): 424-438.](https://www.jstor.org/stable/2332781)
+
+[지수족](../2213)분포 
+
+## 설명
+
+정리가 의미하는 바를 한마디로 요약하면, \"사전분포를 알지 못해도, 사후분포가 지수족을 따르면 평균을 알 수 있다.\"이다.
+
+## 증명
+ -->
+
 ##################################################################################################################################################################
 ##################################################################################################################################################################
 ---
