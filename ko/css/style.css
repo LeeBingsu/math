@@ -55,7 +55,7 @@ html { font-family: "Noto Sans KR"; font-style: normal; font-weight: normal; }
 
 /* 인라인 코드 START */
 code { 
-    font-family: consalas, monospace;
+    font-family: consolas, monospace;
     border: 1px solid;
     border-radius: 4px;
     padding: 2px;
@@ -309,3 +309,82 @@ textarea {border-radius: 8px;}
     font-size: 0.8rem;
 }
 /* sidebar 최근 포스트 END */
+
+/* 코드 표 code table START */
+.code-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    word-break: break-all;
+    border: 0px solid;
+    width: 100%;
+}
+
+.code-table tr:first-child td {
+    font-weight: bold;
+    text-align: center;
+}
+
+.code-table td:first-child,
+.code-table th:first-child {
+    width: 30%;
+    font-size: 0.9rem;
+}
+
+.code-table td.td-code{
+    text-align: center;
+    font-family: "Consolas", "Sans Mono", "Courier", "monospace";
+    border: 1px solid;
+}
+/* 코드 표 code table END */
+
+/* 발행 목록 publish list START */
+.publish-list {
+  border-collapse: collapse;   /* 선 겹침 방지 */
+  width: 100%;
+}
+
+/* 셀 공통 스타일 */
+.publish-list th,
+.publish-list td {
+  padding: 6px;
+  text-align: center;
+  vertical-align: top;
+
+  /* 세로선만 표시 */
+  border-left: 1px dashed #000;
+  border-right: 1px dashed #000;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* 첫 번째 열은 왼쪽 선 제거 */
+.publish-list th:first-child,
+.publish-list td:first-child {
+  border-left: none;
+}
+
+/* 마지막 열은 오른쪽 선 제거 (선택) */
+.publish-list th:last-child,
+.publish-list td:last-child {
+  border-right: none;
+}
+/* 발행 목록 publish list END */
+
+
+/* 풋노트 호버링 추가 */
+.footnote-preview {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 8px;
+  max-width: 300px;
+  white-space: normal;
+  word-wrap: break-word;
+  font-size: 0.9em;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  display: none;
+}
